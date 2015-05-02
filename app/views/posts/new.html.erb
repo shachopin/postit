@@ -1,0 +1,10 @@
+<!--<%= form_tag "/posts" do %>
+  <%= label_tag :title %>
+  <%= text_field_tag :title %>
+  <br>
+  <%= submit_tag "Create Post", class: 'btn btn-primary' %>
+<% end %> -->
+
+<%= render 'shared/content_title', title: "Create a new post" %>
+
+<%= render 'form' %>
